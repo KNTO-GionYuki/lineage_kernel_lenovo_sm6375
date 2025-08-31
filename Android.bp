@@ -26,9 +26,9 @@ cc_prebuilt_binary {
 // Use the following for minimal output from kernel_headers.py.
 kernel_headers_verbose = ""
 
+/**
 build = ["gen_headers_arm.bp", "gen_headers_arm64.bp"]
 
-/**
 cc_library_headers {
     name: "qti_kernel_headers",
     arch: {
